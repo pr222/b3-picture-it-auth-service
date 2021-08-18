@@ -11,8 +11,8 @@ import { router } from './routes/router.js'
 import { connectDB } from './config/mongoose.js'
 
 /**
-* The main function.
-*/
+ * The main function.
+ */
 const main = async () => {
   await connectDB()
 
